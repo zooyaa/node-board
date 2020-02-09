@@ -7,5 +7,5 @@ app.get('/', function(req, res) { // '/' 경로에 'get' 방식의 요청을 받
 
 var port = 3000; // 포트 번호
 app.listen(port, function() { // 변수(port)를 이용해 3000번 포트에 node.js 서버를 연결
-    console.log("Server ON. http://localhost:" + post); // 서버가 실행되면 오른쪽 코드가 콘솔창에 표시된다
+    console.log("Server ON. http://localhost:" + port); // 서버가 실행되면 오른쪽 코드가 콘솔창에 표시된다
 });
