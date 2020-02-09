@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HELLO-EJS</title>
+    <link rel="stylesheet" href="/css/master.css">
 </head>
 <body>
     <h1>Hello
-        <% if(name) { %>
-        <span class="name"><%= name %>!</span>
+        <% if(name){ %>
+          <span class="name"><%= name %>!</span>
         <% } else { %>
-        <span class="stranger">Stranger!</span>
+          <span class="stranger">Stranger!</span>
         <% } %>
-    </h1>
 </body>
 </html>
